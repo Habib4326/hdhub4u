@@ -7,7 +7,7 @@ from urllib.parse import parse_qs
 # সেটিংস
 HANDLE = int(sys.argv[1])
 # আপনার গিটহাবের RAW জেসন লিঙ্ক এখানে দিন
-JSON_URL = "https://raw.githubusercontent.com/YourUser/YourRepo/main/movies.json"
+JSON_URL = "https://raw.githubusercontent.com/Habib4326/hdhub4u/main/movies.json"
 
 def get_remote_data():
     """গিটহাব থেকে মুভি লিস্ট ডাউনলোড করা"""
