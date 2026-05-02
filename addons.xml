@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hdhub4u" name="HDHub4U" version="1.0.0" provider-name="Habib">
+    <requires>
+        <!-- কোডি পাইথন এনভায়রনমেন্ট -->
+        <import addon="xbmc.python" version="3.0.0"/>
+        <!-- গিটহাব থেকে ডাটা রিড করার জন্য রিকোয়েস্ট মডিউল -->
+        <import addon="script.module.requests" version="2.25.1"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">HDHub4U Movie Addon</summary>
+        <description lang="en">Watch your favorite movies directly from remote GitHub updates. Experience a seamless UI with custom posters and fanarts.</description>
+        <disclaimer lang="en">This addon does not host any content. It only pulls links from your provided JSON file.</disclaimer>
+        <platform>all</platform>
+        
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+</addons>
